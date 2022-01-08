@@ -64,10 +64,12 @@ body {
   font-family: "TT Lakes", sans-serif;
 }
 
-.button:hover {
+.menu-header__button:hover,
+.menu-footer__button:hover {
   transform: scale(1.1);
 }
-.button:active {
+.menu-header__button:active,
+.menu-footer__button:active  {
   filter: drop-shadow(0 0 4px RGBA(255, 62, 121, 0.5));
 }
 
